@@ -1,0 +1,41 @@
+
+body{
+	width: 100vw;
+	margin: 0;
+}
+
+.progress{
+	margin: auto;
+	display: block;
+	width: 100vw;
+	background-color: grey;
+}
+
+
+.step{
+	width: 8%;
+	background: red;
+	padding-bottom: 10%;
+	float:left;
+	margin: 1% 1%;
+	border-radius: 10px;
+	transition-duration: 0.5s;
+}
+
+.content{
+	display: none;
+	margin: auto;
+	float: left;
+	width: 100vw;
+	padding:1%;
+	transition-duration: 1s;
+}
+
+.current{
+	background: blue;
+}
+
+
+.currentStep{
+	display: block;
+}
