@@ -14,7 +14,6 @@ body{
 
 .step{
 	width: 8%;
-	background: red;
 	padding-bottom: 10%;
 	float:left;
 	margin: 1% 1%;
@@ -31,11 +30,25 @@ body{
 	transition-duration: 1s;
 }
 
-.current{
+
+.remaining{
 	background: blue;
 }
 
-
+.completed{
+	background:green;
+}
 .currentStep{
 	display: block;
+}
+
+.buttons{
+	align-self: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.current{
+	background: red;
 }
